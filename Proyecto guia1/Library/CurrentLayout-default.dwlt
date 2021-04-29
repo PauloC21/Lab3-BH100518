@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 101
+  controlID: 85
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 75
+  controlID: 55
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 76
+  controlID: 56
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,22 +343,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/textura
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/textura
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\PaulEnriqueBernalHer\Escritorio\UFG\juegos motores\Proyecto
+  m_LastProjectPath: D:\PaulEnriqueBernalHer\Documents\GitHub\Lab3-BH100518\Proyecto
     guia1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4a3a0000
-    m_LastClickedID: 14922
+    m_SelectedIDs: 523a0000
+    m_LastClickedID: 14930
     m_ExpandedIDs: 000000004a3a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -414,7 +414,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -508,8 +508,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 14faffff
-      m_LastClickedID: -1516
+      m_SelectedIDs: 523a0000
+      m_LastClickedID: 0
       m_ExpandedIDs: 52fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -526,7 +526,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 5}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -570,9 +570,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 500, y: 0, z: 500}
+    m_Target: {x: 1.7685552, y: 7.578901, z: 0.74218655}
     speed: 2
-    m_Value: {x: 499.99997, y: -0.00000020715845, z: 499.99997}
+    m_Value: {x: 1.7685552, y: 7.578901, z: 0.74218655}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -621,11 +621,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.25246698, y: -0.024093425, z: 0.0062884027, w: -0.9672865}
     speed: 2
-    m_Value: {x: -0.2510245, y: -0.022651277, z: 0.0058757165, w: -0.96769786}
+    m_Value: {x: -0.25246698, y: -0.024093425, z: 0.0062884027, w: -0.9672865}
   m_Size:
-    m_Target: 707.1068
+    m_Target: 4.224745
     speed: 2
-    m_Value: 707.10675
+    m_Value: 4.224745
   m_Ortho:
     m_Target: 0
     speed: 2
